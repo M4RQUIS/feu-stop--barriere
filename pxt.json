@@ -1,0 +1,28 @@
+{
+    "name": "Feu stop + barrière",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "MaqueenPlus": "github:dfrobot/pxt-dfrobot-maqueenplus#v1.5.0",
+        "pxt-kitronik-stopbit": "github:kitronikltd/pxt-kitronik-stopbit#v1.1.2",
+        "pxt-kitronik-accessbit": "github:kitronikltd/pxt-kitronik-accessbit#v0.2.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
